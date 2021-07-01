@@ -1,0 +1,38 @@
+package PracticeSelenium;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class webdriver {
+
+	public static void main(String[] args) {
+	
+		
+		System.setProperty("webdriver.gecko.driver","D:\\geckodriver-v0.24.0-win64\\geckodriver.exe");
+		WebDriver driver= new FirefoxDriver();
+		
+		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
+		driver.manage().timeouts().pageLoadTimeout(60000, TimeUnit.SECONDS);
+		
+		// get the url....
+		driver.get("http://www.google.com");
+		
+		String strGetTitle = driver.getTitle();
+		
+		if(strGetTitle.equals("Google")) {
+			System.out.println("Expected title");
+		}
+		else {
+			System.out.println("Expected title is wrong ");
+		}
+		
+	driver.navigate().back();
+	driver.navigate().forward();
+	driver.switchTo().alert().accept();
+		
+	}
+
+}

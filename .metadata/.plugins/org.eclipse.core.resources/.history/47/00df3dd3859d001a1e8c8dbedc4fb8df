@@ -1,0 +1,21 @@
+package practicejava;
+
+import java.util.Hashtable;
+
+public class HashTableConcept {
+
+	public static void main(String[] args) {
+	
+		        Hashtable ht = new Hashtable();
+		        
+		        ht.put(1, "aa");
+		        ht.put(2, "keetu");
+		        ht.put(3, "amm");
+		        
+		        System.out.println(ht.get(1));
+		
+		
+
+	}
+
+}

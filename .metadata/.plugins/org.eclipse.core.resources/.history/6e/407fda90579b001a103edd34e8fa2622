@@ -1,0 +1,16 @@
+package OOPSConceptPart2;
+
+public class TestCar {
+
+	public static void main(String[] args) {
+		
+		
+		//static polymorphism- complie time poly morphisim
+		BMW b = new BMW();
+		b.start();
+		b.stop();
+		b.refuel();
+
+	}
+
+}

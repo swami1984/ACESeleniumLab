@@ -1,0 +1,22 @@
+package practicejava;
+
+public class MultipleArrayDimention {
+
+	public static void main(String[] args) {
+	
+		String a [][]=new String[3][5];
+
+		// how to intialise values to array
+		a[0][1]	= "swamy";
+		a[0][2]  ="abc";
+		a[0][3] = "keetu";
+		
+		//how find the lenght of arrary
+		
+		System.out.println(a.length);
+		
+		
+		
+	}
+	
+}	

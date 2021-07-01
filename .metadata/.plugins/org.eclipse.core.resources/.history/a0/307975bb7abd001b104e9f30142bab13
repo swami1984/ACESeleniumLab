@@ -1,0 +1,20 @@
+package StartJava;
+
+public class javatraining {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*this is my first java code
+		good luck */
+		
+		//There are four types of data types- int, char, double, boolean
+		//String is not data type - its class - though we can use data type - 
+		
+		int i = 10 ;
+		System.out.println(i);
+				
+
+	}
+
+}

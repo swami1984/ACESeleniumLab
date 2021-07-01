@@ -1,0 +1,23 @@
+package practicejava;
+
+import java.util.LinkedList;
+
+public class LinkedListConcept {
+
+	public static void main(String[] args) {
+		
+		LinkedList aa = new LinkedList();
+		aa.add(100);
+		aa.add(200);
+		aa.add(300);
+		aa.add(400);
+		
+		//how to get size of hashtable
+		System.out.println(aa.size());
+		
+		
+		
+
+	}
+
+}

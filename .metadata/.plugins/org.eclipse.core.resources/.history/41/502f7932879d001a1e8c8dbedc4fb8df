@@ -1,0 +1,29 @@
+package practicejava;
+
+import java.util.Hashtable;
+
+public class HashTableConcept {
+
+	public static void main(String[] args) {
+	
+		        Hashtable<Integer,String > ht = new Hashtable();
+		        
+		        ht.put(1, "aa");
+		        ht.put(2, "keetu");
+		        ht.put(3, "amm");
+		        
+		        //print value 
+		        System.out.println(ht.get(1));
+		        //how to get size of the hashmap        
+		        System.out.println(ht.size());
+		        
+		        //how to print all values of hashmap
+		        
+		        //using 
+		        
+		
+		
+
+	}
+
+}

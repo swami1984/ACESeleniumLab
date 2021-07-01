@@ -1,0 +1,16 @@
+package OOPSConceptPart2;
+
+public class BMW extends Car {
+	
+	public void start() {
+		
+		System.out.println("start car");
+	}
+	
+	public void theftsaftey() {
+		System.out.println("theft safty done");
+	}
+	
+	
+
+}

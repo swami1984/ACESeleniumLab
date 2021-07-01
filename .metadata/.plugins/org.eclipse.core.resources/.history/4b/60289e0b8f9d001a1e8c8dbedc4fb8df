@@ -1,0 +1,22 @@
+package practicejava;
+
+public class IncreDecre {
+
+	public static void main(String[] args) {
+		
+		int i =1;
+		int j = i++;// post increment -intially i will 1 , that i wll be pass to j = so j =1 ; i =2
+		
+		System.out.println(i);
+		System.out.println(j);
+		//pre increment as - ik will 1 , q will 2 - , k=2 
+		int k=1;
+		int q=++k;
+		
+		System.out.println(k);
+		System.out.println(q);
+		
+
+	}
+
+}

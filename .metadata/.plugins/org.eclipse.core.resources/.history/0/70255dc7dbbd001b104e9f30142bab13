@@ -1,0 +1,29 @@
+package StartJava;
+
+public class InterviewProgr {
+
+	public static void main(String[] args) {
+		
+		String string = "swammmy";
+		char chars[] = string.toCharArray();
+		int count =0;
+		
+		for(int i=0;i<chars.length;i++) {
+			for(int j=i+1;j<chars.length;j++) {
+				if(chars[i]==chars[j]&&chars[i]!= ' ') {
+					count++;
+					chars[j]='0';
+				
+			}
+			
+			}
+			
+			if(count>1 && chars[i]!='0') {
+				System.out.println(chars[i]);
+		}
+		
+		
+		}
+	}
+
+}

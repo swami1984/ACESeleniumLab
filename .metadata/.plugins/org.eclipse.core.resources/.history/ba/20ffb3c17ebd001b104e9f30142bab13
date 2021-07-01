@@ -1,0 +1,23 @@
+package StartJava;
+
+public class javatraining {
+
+	public static void main(String[] args) {
+		
+		String string = "i hate job";
+		int count =0;
+		
+		for(int i=0;i<string.length();i++) {
+			
+			if(string.charAt(i)!=' ') {
+				count++;
+				
+			}
+				
+		}
+		
+	System.out.println("total char prsrnt:"+count);
+		
+	}
+
+}

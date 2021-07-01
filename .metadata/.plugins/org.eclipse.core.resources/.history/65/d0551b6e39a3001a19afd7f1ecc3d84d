@@ -1,0 +1,15 @@
+package LearnJava2;
+
+public class ChildConstrcutor  extends ContructorClass{
+
+	public static void main(String[] args) {
+
+ 
+		ChildConstrcutor cc = new ChildConstrcutor(10);
+		
+
+	}
+	
+	
+
+}

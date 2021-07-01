@@ -1,0 +1,28 @@
+package OOPSConceptPart2;
+
+public class TestCar {
+
+	public static void main(String[] args) {
+		
+		
+		//static polymorphism- complie time poly morphisim
+		BMW b = new BMW();
+		b.start();
+		b.stop();
+		b.refuel();
+		b.theftsaftey();
+		
+		
+		System.out.println("******************");
+		
+		Car c = new Car();
+		c.start();
+		c.stop();
+		c.refuel();
+	//very imp to know that parent cannpt access child methods or properties 
+	//child can access parent properties and methods 	
+		
+
+	}
+
+}

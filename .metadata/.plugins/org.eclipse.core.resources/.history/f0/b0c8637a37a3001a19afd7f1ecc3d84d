@@ -1,0 +1,25 @@
+package LearnJava2;
+
+import java.util.Hashtable;
+
+public class HashMapas {
+
+	public static void main(String[] args) {
+	
+		Hashtable ht = new Hashtable();
+		
+		ht.put(1, 100);
+		ht.put(2, 200);
+		ht.put(3, 300);
+		ht.put(4,400);
+		
+		System.out.println(ht.size());
+		
+		System.out.println(ht.get(1));
+		
+		
+		
+
+	}
+
+}

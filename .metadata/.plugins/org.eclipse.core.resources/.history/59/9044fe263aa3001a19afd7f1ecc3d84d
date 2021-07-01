@@ -1,0 +1,32 @@
+package LearnJava2;
+
+public class ChildConstrcutor  extends ContructorClass{
+	
+	
+	public void ChildConstrcutor() {
+		
+		System.out.println(" default ");
+	}
+	
+public void ChildConstrcutor(int a) {
+		
+		System.out.println("child1 default ");
+	}
+
+public void ChildConstrcutor(int a,int b) {
+	
+	System.out.println("child1 default ");
+}
+	
+
+	public static void main(String[] args) {
+
+		ChildConstrcutor cc = new ChildConstrcutor();
+		
+		
+
+	}
+	
+	
+
+}

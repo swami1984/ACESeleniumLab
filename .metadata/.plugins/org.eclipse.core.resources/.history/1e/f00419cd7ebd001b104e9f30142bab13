@@ -1,0 +1,18 @@
+package StartJava;
+
+public class javatraining {
+
+	public static void main(String[] args) {
+		
+		String string = "swamy";
+		
+		char chars[] = string.toCharArray();
+		
+		for(int i=chars.length;i>=0;i--) {
+			
+		}
+		
+		System.out.println(chars[i]);
+	}
+
+}

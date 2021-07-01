@@ -1,0 +1,17 @@
+package LearnJava2;
+
+public class ContructorClass {
+	
+	public void ContructorClass() {
+		System.out.println("default method");
+	}
+
+	public void ContructorClass(int a ) {
+		System.out.println("first method");
+	}
+  	
+	public void ContructorClass(int a ,int b) {
+		System.out.println("second method");
+	}
+	
+}

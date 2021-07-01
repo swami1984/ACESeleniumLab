@@ -1,0 +1,16 @@
+package Abstraction;
+
+public class TestBanks {
+
+	public static void main(String[] args) {
+	
+		HDFCBank hb=new HDFCBank();
+		hb.credit();
+		hb.credit();
+		hb.loan();
+		
+		
+
+	}
+
+}
